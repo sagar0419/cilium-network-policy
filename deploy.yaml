@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: helloworld-one
-        image: httpd:latest
+        image: sagar27/testing:latest
         ports:
         - containerPort: 80
