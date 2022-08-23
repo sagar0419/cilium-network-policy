@@ -1,0 +1,11 @@
+apiVersion: cilium.io/v2
+kind: CiliumNetworkPolicy
+metadata:
+  name: untitled-policy
+  namespace: default
+spec:
+  endpointSelector: {}
+  ingress:
+    - {}
+  egress:
+    - {}
