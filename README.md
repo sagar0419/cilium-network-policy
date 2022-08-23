@@ -2,7 +2,7 @@
 
 This repo will help you to create a network policy in Kubernetes using cilium CNI. So, only two namespaces can communicate with each other. Cilium is an open-source software for providing, securing and observing network connectivity between container workloads.
 
--Prerequisite:-
+- Prerequisite:-
  - A Kubernetes cluster up and running.
  - Cilium is installed.
  - Application is deployed in different namespaces. (For this task I have created an application in test, default, frontend and backend namespaces.)
