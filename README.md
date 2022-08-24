@@ -104,3 +104,8 @@ In the above given manifest I have blocked all the ingress and egress traffic in
 
 To test the application SSH into the frontend pod and curl the pods in other namespace . You will only be able to curl the pod running in backend namespace and vice versa.
 
+### You can also use cluster wide policy to create network policy rule.
+Manifest for cluster wide policy is `clusterwide-np.yaml`
+
+Note: - you can either chose clusterwide or namespace scoped network policy. And cilium network policy depends upon whitelisting of rules.
+
